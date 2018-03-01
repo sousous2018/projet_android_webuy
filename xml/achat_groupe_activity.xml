@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+
+    <TextView
+        android:id="@+id/libelleProduit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lait Lactel 10x1L" />
+
+    <TextView
+        android:id="@+id/prixHorsPromo"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:text="prix hors promo : " />
+
+    <TextView
+        android:id="@+id/prixPromo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="prix promo : " />
+
+    <TextView
+        android:id="@+id/qteMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="quantité min : " />
+
+    <TextView
+        android:id="@+id/qteAAcheter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="quantité à acheter : " />
+
+    <ImageButton
+        android:id="@+id/imgProduitButton"
+        android:layout_width="110dp"
+        android:layout_height="103dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+</LinearLayout>
